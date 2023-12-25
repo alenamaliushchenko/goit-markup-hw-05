@@ -363,7 +363,10 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
-
+.form-order-service {
+  display: flex;
+  align-items: b;
+}
 /*Footer styles*/
 
 .footer {
