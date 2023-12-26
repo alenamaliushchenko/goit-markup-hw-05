@@ -462,17 +462,6 @@
           </ul>
         </div>
       </section>
-
-      <form class="form-order-service">
-        <label
-          >Name
-          <input type="text" />
-        </label>
-        <label>Phone <input type="text" /> </label>
-        <input type="text" />
-
-        <button type="submit">Send</button>
-      </form>
     </main>
 
     <footer class="footer">
@@ -521,5 +510,47 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal window -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-btn" type="button" aria-label="Modal close button">
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <p class="modal-caption">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form form" name="modal">
+          <div class="form-wrapper">
+            <label class="form-label" for="user_name">Name</label>
+            <div class="form-field">
+              <input class="form-input" type="text" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+
+            <label class="form-label" for="user_phone">Phone</label>
+            <div class="form-field">
+              <input class="form-input" type="text" />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+
+            <label class="form-label" for="user_email">Email</label>
+            <div class="form-field">
+              <input class="form-input" type="text" />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
