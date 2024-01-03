@@ -740,7 +740,7 @@ a:focus {
 }
 .checkbox:checked
   + .form-label-agreement
-  .form-agreement-checkbox
+  > .form-agreement-checkbox
   > .form-agreement-icon {
   opacity: 1;
   transform: scale(1);
