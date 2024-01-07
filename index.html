@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header hide">
       <div class="container header-container">
         <nav class="navigation">
           <a class="page-logo link" href="./index.html">
@@ -55,13 +55,13 @@
       </div>
     </header>
     <main class="page-main-content">
-      <section class="order-service">
+      <section class="order-service section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="main-content">
+      <section class="main-content section">
         <div class="container">
           <h2 class="visually-hidden">Main-content</h2>
           <ul class="main-content-list list">
@@ -164,7 +164,7 @@
           </ul>
         </div>
       </section> -->
-      <section class="our-team">
+      <section class="our-team section">
         <div class="container">
           <h2 class="secondary-title">Our Team</h2>
           <ul class="our-team-list list">
@@ -172,7 +172,7 @@
               <img
                 src="./images/team_member_1.jpg"
                 alt="team member 1"
-                width="264"
+                width="100%"
               />
               <div class="container-members">
                 <h3 class="list-item-heading team-title">Mark Guerrero</h3>
@@ -215,7 +215,7 @@
               <img
                 src="./images/team_member_2.jpg"
                 alt="team member 2"
-                width="264"
+                width="100%"
               />
               <div class="container-members">
                 <h3 class="list-item-heading team-title">Tom Ford</h3>
@@ -258,7 +258,7 @@
               <img
                 src="./images/team_member_3.jpg"
                 alt="team member 3"
-                width="264"
+                width="100%"
               />
               <div class="container-members">
                 <h3 class="list-item-heading team-title">Camila Garcia</h3>
@@ -299,7 +299,7 @@
               <img
                 src="./images/team_member_4.jpg"
                 alt="team member 4"
-                width="264"
+                width="100%"
               />
               <div class="container-members">
                 <h3 class="list-item-heading team-title">Daniel Wilson</h3>
@@ -341,7 +341,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio section">
         <div class="container">
           <h2 class="secondary-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -464,7 +464,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container">
         <div class="footer-logo">
           <a class="footer-logo-link link" href="./index.html">
@@ -531,7 +531,7 @@
     </footer>
 
     <!-- modal window -->
-    <div class="backdrop is-open">
+    <div class="backdrop hide">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Modal close button">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -622,5 +622,91 @@
         </form>
       </div>
     </div>
+    <!-- Mobile menu -->
+    <!-- <div class="menu hide">
+      <button class="menu-btn" type="button" aria-label="Close menu button">
+        <svg class="menu-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-x-close"></use>
+        </svg>
+      </button>
+
+      <ul class="menu-nav">
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="">Studio</a>
+        </li>
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="">Portfolio</a>
+        </li>
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="">Contacts</a>
+        </li>
+      </ul>
+      <ul class="contacts">
+        <li class="contacts-item">
+          <a href="tel:+110001111111" class="contacts-link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="contacts-item">
+          <a href="mailto:info@devstudio.com" class="contacts-link"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="socials">
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href=""
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Link to Instagram"
+          >
+            <svg class="socials-icon">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href=""
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Link to Twitter"
+          >
+            <svg class="socials-icon">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href=""
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Link to Facebook"
+          >
+            <svg class="socials-icon">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-item">
+          <a
+            class="socials-link"
+            href=""
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Link to Linkedin"
+          >
+            <svg class="socials-icon">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div> -->
   </body>
 </html>
